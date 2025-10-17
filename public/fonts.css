@@ -1,0 +1,68 @@
+@font-face {
+  font-family: VK Sans Display;
+  src: url("fonts/vk_sans_display_regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: VK Sans Display;
+  src: url("fonts/vk_sans_display_light-webfont.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: VK Sans Display;
+    src: url("fonts/vk_sans_display_medium-webfont.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: VK Sans Display;
+  src: url("fonts/vk_sans_display_demibold-webfont.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: VK Sans Text;
+  src: url("fonts/vk_sans_text_regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: VK Sans Text;
+    src: url("fonts/vk_sans_text_demibold-webfont.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: VK Sans Text;
+    src: url("fonts/vk_sans_text_bold-webfont.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: VK Sans Text;
+  src: url("fonts/vk_sans_text_light-webfont.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.vkui--vkBase--dark, .vkui--vkBase--light, .vkui--vkCom--dark, .vkui--vkCom--light, .vkui--vkIOS--dark, .vkui--vkIOS--light, :root {
+    --vkui--font_family_fallbacks: "VK Sans Text", system-ui !important;
+    --vkui--font_family_accent: "VK Sans Display", system-ui !important;
+    --vkui--font_family_base: "VK Sans Text", system-ui !important;
+    --vkui--font_text--font_family--regular: "VK Sans Text", system-ui !important;
+    --vkui--font_title2--font_family--regular: "VK Sans Display", system-ui !important;
+    --vkui--font_subhead--font_family--regular: "VK Sans Text", system-ui !important;
+    --vkui--font_headline1--font_family--regular: "VK Sans Text", system-ui !important;
+    --vkui--font_headline2--font_family--regular: "VK Sans Text", system-ui !important;
+    --vkui--font_footnote--font_family--regular: "VK Sans Text", system-ui !important;
+    --vkui--font_caption1--font_family--regular: "VK Sans Text", system-ui !important;
+}
